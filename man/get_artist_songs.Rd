@@ -4,7 +4,7 @@
 \alias{get_artist_songs}
 \title{To get artist's songs}
 \usage{
-get_artist_songs(api_key, name = NA, id = NA)
+get_artist_songs(api_key, name = NA, id = NA, results = NA)
 }
 \arguments{
 \item{api_key}{Echo Nest API key}

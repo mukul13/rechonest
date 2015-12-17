@@ -4,23 +4,24 @@
 \alias{search_songs}
 \title{To search song}
 \usage{
-search_songs(api_key, name = NA, id = NA, hotttnesss = T, style = NA,
-  title = NA, sort = NA, audio_summary = F, partner = NA,
-  min_name = NA, max_name = NA, min_val = NA, max_val = NA,
-  results = NA)
+search_songs(api_key, artist = NA, artist_id = NA, title = NA,
+  hotttnesss = T, style = NA, artist_location = T, combined = NA,
+  sort = NA, audio_summary = F, partner = NA, min_name = NA,
+  discovery = T, max_name = NA, min_val = NA, max_val = NA,
+  start = NA, results = NA, mode = NA, key = NA, currency = T,
+  description = NA, rank_type = "relevance", mood = NA, familiarity = T,
+  song_type = NA, artist_start_year_before = NA,
+  artist_start_year_after = NA, artist_end_year_before = NA,
+  artist_end_year_after = NA)
 }
 \arguments{
 \item{api_key}{Echo Nest API key}
 
-\item{name}{artist's name}
-
-\item{id}{artist's id}
+\item{title}{song's title}
 
 \item{hotttnesss}{song's hotttnesss}
 
 \item{style}{artist's style}
-
-\item{title}{song's title}
 
 \item{sort}{to sort ascending or descending}
 
@@ -36,7 +37,37 @@ search_songs(api_key, name = NA, id = NA, hotttnesss = T, style = NA,
 
 \item{max_val}{features' maximum value settings}
 
+\item{start}{the desired index of the first result returned}
+
 \item{results}{maximum size}
+
+\item{mode}{the mode of songs}
+
+\item{key}{the key of songs in the playlist}
+
+\item{currency}{song currency}
+
+\item{description}{song's description}
+
+\item{rank_type}{For search by description, style or mood indicates whether results should be ranked by query relevance or by artist familiarity}
+
+\item{mood}{a mood like happy or sad}
+
+\item{familiarity}{song's familiarity}
+
+\item{song_type}{controls the type of songs returned}
+
+\item{artist_start_year_before}{Matches artists that have an earliest start year before the given value}
+
+\item{artist_start_year_after}{Matches artists that have an earliest start year after the given value}
+
+\item{artist_end_year_before}{Matches artists that have a latest end year before the given value}
+
+\item{artist_end_year_after}{Matches artists that have a latest end year after the given value}
+
+\item{name}{artist's name}
+
+\item{id}{artist's id}
 }
 \value{
 data frame giving artist's familiarity

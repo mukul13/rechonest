@@ -1,7 +1,7 @@
 Package: REchoNest
 Type: Package
 Title: Tools to access artist and song data using Echo Nest API
-Version: 0.1.1
+Version: 0.1.2
 Date: 2015-12-13
 Authors@R: person("Mukul", "Chaware", email = "mukul.chaware13@gmail.com", role = c("aut", "cre"))
 Description: To have access to Echo Nest API. Artist's data including songs, blogs ,news ,reviews, hotttnesss etc can be accessed. Song's data including audio summary,style,danceability,tempo etc can also be similarly accessed. It can be also used to recommend similar artists. Music data can also be accessed specific to particular partner catalog. 

@@ -6,7 +6,9 @@
 \usage{
 get_artist_data(api_key, name = NA, id = NA, hotttnesss = T, terms = F,
   blogs = F, news = F, familiarity = F, audio = F, images = F,
-  songs = F, reviews = F)
+  songs = F, reviews = F, discovery = F, partner = NA,
+  biographies = F, doc_counts = F, artist_location = F,
+  years_active = F, urls = F)
 }
 \arguments{
 \item{api_key}{Echo Nest API key}
@@ -19,7 +21,7 @@ get_artist_data(api_key, name = NA, id = NA, hotttnesss = T, terms = F,
 
 \item{terms}{artist's terms}
 
-\item{blogs}{blogs about artis}
+\item{blogs}{blogs about artist}
 
 \item{news}{news articles about artist}
 
@@ -33,7 +35,19 @@ get_artist_data(api_key, name = NA, id = NA, hotttnesss = T, terms = F,
 
 \item{reviews}{reviews about artist}
 
-\item{results}{maximum size}
+\item{discovery}{artist's discovery details}
+
+\item{partner}{partner catalog}
+
+\item{biographies}{artist's biographies}
+
+\item{doc_counts}{artist's doc_counts}
+
+\item{artist_location}{artist location}
+
+\item{years_active}{years active}
+
+\item{urls}{urls of artist websites}
 }
 \value{
 data frame giving artist's hotttnesss

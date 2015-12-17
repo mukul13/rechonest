@@ -4,7 +4,8 @@
 \alias{get_artist_news}
 \title{To get news about artist}
 \usage{
-get_artist_news(api_key, name = NA, id = NA, results = NA)
+get_artist_news(api_key, name = NA, id = NA, results = NA,
+  high_relevance = F)
 }
 \arguments{
 \item{api_key}{Echo Nest API key}
@@ -14,6 +15,8 @@ get_artist_news(api_key, name = NA, id = NA, results = NA)
 \item{id}{artist's id}
 
 \item{results}{maximum size}
+
+\item{high_relevance}{if true only items that are highly relevant for this artist will be returned}
 }
 \value{
 data frame giving news about artist
