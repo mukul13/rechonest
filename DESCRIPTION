@@ -1,11 +1,18 @@
-Package: REchoNest
+Package: rechonest
 Type: Package
-Title: Tools to access artist and song data using Echo Nest API
-Version: 0.1.2
-Date: 2015-12-13
-Authors@R: person("Mukul", "Chaware", email = "mukul.chaware13@gmail.com", role = c("aut", "cre"))
-Description: To have access to Echo Nest API. Artist's data including songs, blogs ,news ,reviews, hotttnesss etc can be accessed. Song's data including audio summary,style,danceability,tempo etc can also be similarly accessed. It can be also used to recommend similar artists. Music data can also be accessed specific to particular partner catalog. 
+Title: R Interface to Echo Nest API
+Version: 1.2
+Date: 2016-03-16
+Author: Mukul Chaware[aut,cre]
+Maintainer: Mukul Chaware <mukul.chaware13@gmail.com>
+Description: The 'Echo nest' <http://the.echonest.com> is the industry's leading
+    music intelligence company, providing developer with deepest understanding of
+    music content and music fans. This package can be used to access artist's data
+    including songs, blogs, news, reviews etc. Song's data including audio summary,
+    style, danceability, tempo etc can also be accessed.
+URL: https://github.com/mukul13/rechonest
 License: MIT + file LICENSE
 LazyData: TRUE
-imports: httr,RCurl,jsonlite
-RoxygenNote: 5.0.1.9000
+Imports:
+    httr,RCurl,jsonlite
+RoxygenNote: 5.0.1
