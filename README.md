@@ -2,7 +2,7 @@
 R Interface to Access Echo Nest API
 
 ## Echo Nest API
-The Echo Nest offers an incredible array of music data and services for developers to build amazing apps and experiences. Hundreds of music applications tap into The Echo Nest API for access to billions of data points about music from leading media companies (MTV, the BBC, MOG and others) to award-winning mobile applications (Discovr, Music Hunter, Pocket Hipster). I have made a R package to access The Echo Nest API. This package covers most of the API endpoints. I will try to cover remaining endpoints in the next update.
+The Echo Nest offers an incredible array of music data and services for developers to build amazing apps and experiences. Hundreds of music applications tap into The Echo Nest API for access to billions of data points about music from leading media companies (MTV, the BBC, MOG and others) to award-winning mobile applications (Discovr, Music Hunter, Pocket Hipster). This package covers most of the API endpoints.
 
 ## Registering for an API key
 We need an API key in every API call. To get an API key, we need to create an Echo Nest developer account.To get API key click [here](http://developer.echonest.com/account/register)
