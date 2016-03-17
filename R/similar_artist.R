@@ -23,7 +23,7 @@
 #' data=similar_artists(api_key,name=c("coldplay","adele","maroon 5"),results=35 )
 #' }
 
-similar_artists=function(api_key,name=NA,id=NA,seed_catalog=NA,hotttnesss=T,start=NA,
+similar_artists=function(api_key,name=NA,id=NA,seed_catalog=NA,hotttnesss=T,start=0,
                          results=15, max_familiarity=NA,min_familiarity=NA,
                          max_hotttnesss=NA,min_hotttnesss=NA,
                          artist_start_year_before=NA,artist_start_year_after=NA,
