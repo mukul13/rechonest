@@ -103,11 +103,7 @@ standard_static_playlist=function(api_key,type=NA,artist_id=NA,artist=NA,song_id
   {
     url=paste(url,"&bucket=tracks",sep="")
   }
-  if(!is.na(start))
-  {
-    url=paste(url,"&start=",start,sep="")
-  }
-  
+
   url=paste(url,"&results=",results,sep="")
   
   if(!is.na(limited_interactivity))
