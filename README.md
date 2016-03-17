@@ -18,7 +18,7 @@ install_github("mukul13/rechonest")
 To check all types of functions this package supports:
 ```R
 library(rechonest)
-ls("package:REchoNest")
+ls("package:rechonest")
 
 ##  [1] "basic_playlist"           "extract_artist_names"     "get_artist_biographies"  
 ##  [4] "get_artist_blogs"         "get_artist_data"          "get_artist_familiarity"  
