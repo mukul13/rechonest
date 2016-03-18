@@ -1,6 +1,10 @@
 # rechonest
 R Interface to Access Echo Nest API
 
+[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/rechonest)](https://github.com/metacran/cranlogs.app)
+[![cran version](http://www.r-pkg.org/badges/version/rechonest)](http://cran.rstudio.com/web/packages/rechonest)
+
+
 ## Echo Nest API
 The Echo Nest offers an incredible array of music data and services for developers to build amazing apps and experiences. Hundreds of music applications tap into The Echo Nest API for access to billions of data points about music from leading media companies (MTV, the BBC, MOG and others) to award-winning mobile applications (Discovr, Music Hunter, Pocket Hipster). This package covers most of the API endpoints.
 
@@ -8,7 +12,12 @@ The Echo Nest offers an incredible array of music data and services for develope
 We need an API key in every API call. To get an API key, we need to create an Echo Nest developer account.To get API key click [here](http://developer.echonest.com/account/register)
 
 ## Installation
-To install rechonest:
+To install from CRAN:
+```R
+install.packages("rechonest")
+```
+
+To install the latest development:
 ```R
 library(devtools)
 install_github("mukul13/rechonest")
