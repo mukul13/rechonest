@@ -1,7 +1,7 @@
 # rechonest
 R Interface to Access Echo Nest API
 
-[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/rechonest)](https://github.com/metacran/cranlogs.app)
+[![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/rechonest)](http://cran.r-project.org/package=rechonest)
 [![cran version](http://www.r-pkg.org/badges/version/rechonest)](http://cran.rstudio.com/web/packages/rechonest)
 
 
