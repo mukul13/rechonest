@@ -1,9 +1,10 @@
 # rechonest
-R Interface to Access Echo Nest API
 
+[![Travis-CI Build Status](https://travis-ci.org/mukul13/rechonest.svg?branch=master)](https://travis-ci.org/mukul13/rechonest)
 [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/rechonest)](http://cran.r-project.org/package=rechonest)
 [![cran version](http://www.r-pkg.org/badges/version/rechonest)](http://cran.rstudio.com/web/packages/rechonest)
 
+R Interface to Access Echo Nest API
 
 ## Echo Nest API
 The Echo Nest offers an incredible array of music data and services for developers to build amazing apps and experiences. Hundreds of music applications tap into The Echo Nest API for access to billions of data points about music from leading media companies (MTV, the BBC, MOG and others) to award-winning mobile applications (Discovr, Music Hunter, Pocket Hipster). This package covers most of the API endpoints.
